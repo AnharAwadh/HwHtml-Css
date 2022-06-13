@@ -1,0 +1,59 @@
+/*Some necessary adjustments*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.soup{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.soup img{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.soup h2{
+  position: absolute;
+  color: white;
+  top: 20rem;
+  left: 35rem;
+  font-weight: lighter;
+}
+.detlis {
+  width: 100%;
+  height: 100vh;
+
+}
+.detlis .tob{
+  padding: 4rem 12rem ;
+}
+.detlis.tob img{
+  margin: 10px;;
+
+}
+.detlis .Ingredients ul>li:before{
+  contain: "-"
+
+}
+data.detlis .Ingredients img{
+  margin: 2rem 0 0 15rem;
+}
+.detlis .Ingredients {
+  margin: 2rem 15rem 5rem 14rem;
+}
+.detlis.Directions h2{
+  margin: 0 2 0 0;
+
+}
+.detlis .Directions{
+
+  list-style: none;
+  margin: 2rem 15rem 5rem 14rem;
+}
